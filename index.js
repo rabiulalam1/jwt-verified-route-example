@@ -24,6 +24,6 @@ app.use(express.json())
 //Route middleware
 app.use('/api/users', authRoutes)
 
-app.listen(3000, () => { 
-    console.log('listening on 3000')
+app.listen(5000, () => { 
+    console.log('listening on 5000')
 })
